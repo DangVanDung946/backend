@@ -13,11 +13,11 @@ namespace backend.Models
 
         public DbSet<Slide> SlidesList { get; set; } = null!;
 
-        public DbSet<Category> CategoriesList { get; set; } = null;
+        public DbSet<Category> CategoriesList { get; set; } = null!;
 
-        public DbSet<ImageIcon> ImageIconsList { get; set; } = null;
+        public DbSet<ImageIcon> ImageIconsList { get; set; } = null!;
 
-        public DbSet<User> UsersList { get; set; } = null;
+        public DbSet<User> UsersList { get; set; } = null!;
     }
 }
 
